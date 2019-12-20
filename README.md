@@ -1,7 +1,7 @@
 # RSeleniumDriver
 Solução (que funciona) para o problema de carregamento do driver.
 
-
+[AQUI](https://github.com/pcbrom/RSeleniumDriver/blob/master/RSelenium_solucao_CarregamentoDriver.R)
 
 
 > library(RSelenium)
