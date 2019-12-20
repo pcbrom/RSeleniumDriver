@@ -3,42 +3,15 @@ Solução (que funciona) para o problema de carregamento do driver.
 
 [AQUI](https://github.com/pcbrom/RSeleniumDriver/blob/master/RSelenium_solucao_CarregamentoDriver.R)
 
+Se a sua mensagem de erro for compatível então a solução deve funcionar.
+
+
 
 > library(RSelenium)
 
-> rD = rsDriver(browser = "firefox", check = T)
+> rD = rsDriver(browser = "firefox", check = F)
 
 checking Selenium Server versions:
-
-BEGIN: PREDOWNLOAD
-
-BEGIN: DOWNLOAD
-
-BEGIN: POSTDOWNLOAD
-
-checking chromedriver versions:
-
-BEGIN: PREDOWNLOAD
-
-BEGIN: DOWNLOAD
-
-BEGIN: POSTDOWNLOAD
-
-checking geckodriver versions:
-
-BEGIN: PREDOWNLOAD
-
-BEGIN: DOWNLOAD
-
-BEGIN: POSTDOWNLOAD
-
-checking phantomjs versions:
-
-BEGIN: PREDOWNLOAD
-
-BEGIN: DOWNLOAD
-
-BEGIN: POSTDOWNLOAD
 
 [1] "Connecting to remote server"
 
